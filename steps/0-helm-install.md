@@ -38,21 +38,3 @@ Make sure your Helm is configured to use your Minikube cluster. If you have just
 ```bash
 kubectl config current-context
 ```
-You should see something like `minikube`.
-
-### Step 5: Add Helm Repositories
-You can add Helm repositories to fetch charts. For example, to add the Bitnami and SonarQube repositories:
-```bash
-helm repo add bitnami https://charts.bitnami.com/bitnami
-helm repo add sonarqube https://SonarSource.github.io/helm-sonarqube
-helm repo update
-```
-
-### Step 6: Use Helm with Minikube
-Now you can use Helm to install applications on your Minikube cluster. For example, to install SonarQube, you can run:
-```bash
-helm install sonar sonarqube/sonarqube --namespace sonar --create-namespace --set service.type=NodePort
-```
-
-### Conclusion
-You now have Helm installed and configured to work with your Minikube cluster. You can use Helm to manage your Kubernetes applications easily. If you need to uninstall Helm, you can do so using your package manager (like `brew` or `choco`), or by removing the binary if installed manually.
