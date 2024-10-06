@@ -6,4 +6,4 @@ For the working environment, I will use codespace, the github development enviro
 
 to install codespace environment, please look at this picture:
 
-![image](https://github.com/user-attachments/assets/d6e9c784-5511-4e5a-bc21-2b9a5839ca2a)
+![Codespace environment](/images/code-spaces.png)
