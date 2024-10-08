@@ -6,7 +6,7 @@ Here is the Kubernetes object list in table format:
 
 | **Kubernetes Object**   | **Description**                                                       | **Purpose**                                                |
 |-------------------------|-----------------------------------------------------------------------|------------------------------------------------------------|
-| **Pod**                 | The smallest deployable unit in Kubernetes. Contains one or more containers. | To run containers.                                          |
+| [**Pod**](01-21-pod.md)                 | The smallest deployable unit in Kubernetes. Contains one or more containers. | To run containers.                                          |
 | **Service**             | Exposes a set of Pods as a network service.                           | Provides network access to Pods, balancing traffic.          |
 | **Deployment**          | Manages the deployment of Pods and ensures the desired state.         | To manage stateless applications and support rolling updates. |
 | **ConfigMap**           | Stores non-confidential data in key-value pairs.                      | To configure containers with environment-specific variables. |
